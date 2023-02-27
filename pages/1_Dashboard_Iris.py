@@ -20,6 +20,7 @@ img = image.imread(IMAGE_PATH)
 st.image(img)
 
 df = pd.read_csv(DATA_PATH)
+st.header('The Dataset')
 st.dataframe(df)
 
 species = st.selectbox("Select the Species:", df['Species'].unique())

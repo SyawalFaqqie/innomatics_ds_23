@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-st.title("My :green[Data App] :rics_cracker:")
+st.title("My :green[Data App] :rice_cracker:")
 st.header("Data Science Internship")
 
 st.snow()
